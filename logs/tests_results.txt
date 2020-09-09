@@ -1,0 +1,75 @@
+test_capitalize_first_letter (__main__.TestExercice) ... FAIL
+test_linking_words (__main__.TestExercice) ... FAIL
+test_lower_case_names (__main__.TestExercice) ... FAIL
+test_upper_case_names (__main__.TestExercice) ... FAIL
+
+======================================================================
+FAIL: test_capitalize_first_letter (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 30, in test_capitalize_first_letter
+    'Mettre la permiere lettre en majuscule'
+AssertionError: Lists differ: ['a', 't', 'a', 'a', 'g'] != ['A', 'T', 'A', 'A', 'G']
+
+First differing element 0:
+'a'
+'A'
+
+- ['a', 't', 'a', 'a', 'g']
+?   ^    ^    ^    ^    ^
+
++ ['A', 'T', 'A', 'A', 'G']
+?   ^    ^    ^    ^    ^
+ : Mettre la permiere lettre en majuscule
+
+======================================================================
+FAIL: test_linking_words (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 64, in test_linking_words
+    'Les mots de liaison doivent etre en minuscule'
+AssertionError: Lists differ: ['Antigua aNd Barbuda', 'Bosnia ANd Herzegovina'] != ['Antigua and Barbuda', 'Bosnia and Herzegovina']
+
+First differing element 0:
+'Antigua aNd Barbuda'
+'Antigua and Barbuda'
+
+- ['Antigua aNd Barbuda', 'Bosnia ANd Herzegovina']
+?            ^                    ^^
+
++ ['Antigua and Barbuda', 'Bosnia and Herzegovina']
+?            ^                    ^^
+ : Les mots de liaison doivent etre en minuscule
+
+======================================================================
+FAIL: test_lower_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 39, in test_lower_case_names
+    'Certaines lettres ne doivent pas etre en minuscules'
+AssertionError: Lists differ: ['afghanistan', 'albania', 'algeria', 'ando[633 chars]ana'] != ['Afghanistan', 'Albania', 'Algeria', 'Ando[633 chars]ana']
+
+First differing element 0:
+'afghanistan'
+'Afghanistan'
+
+Diff is 2612 characters long. Set self.maxDiff to None to see it. : Certaines lettres ne doivent pas etre en minuscules
+
+======================================================================
+FAIL: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 48, in test_upper_case_names
+    'Certaines lettres ne doivent pas etre en majuscule'
+AssertionError: Lists differ: ['AFGHANISTAN', 'ALBANIA', 'ALGERIA', 'ANDOR[632 chars]ANA'] != ['Afghanistan', 'Albania', 'Algeria', 'Andor[632 chars]ana']
+
+First differing element 0:
+'AFGHANISTAN'
+'Afghanistan'
+
+Diff is 1692 characters long. Set self.maxDiff to None to see it. : Certaines lettres ne doivent pas etre en majuscule
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.056s
+
+FAILED (failures=4)
