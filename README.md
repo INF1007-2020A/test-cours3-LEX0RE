@@ -1,56 +1,31 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-# Capitalisation de noms de pays
+# Transformer une lettre minuscule en majuscule
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
 ## Objectif
 
-Modifier les casses de noms de pays afin que:
-* Les mots de liaisons (ex.: and) soient en casses minuscules
-* Les premières lettres de noms soient en casses majuscules
+Modifier les caractères pour que les lettres minuscules se transforment en majuscule, sans utiliser la fonction upper() de Python.
 
 ### Exemple
 ```python
-print(capitaliser_pays('antigua ANd barbuda'))
+print(majuscule('bonjour'))
 ```
-Antigua and Barbuda
+BONJOUR
 
 ### À compléter
 Vous devez compléter la fonction suivante du fichier [exercice.py](exercice.py).
 
 ```python
-def capitaliser_pays(nom):
+def majuscule(mot):
     #TODO completer la fonction
-    return nom
+    return mot
 ```
 
 ## Connaissances utiles
 
-### Changement de casse
-```python
-chaine = "Hello, World!"
-print(chaine.upper())
-print(chaine.lower())
-print(chaine.capitalize())
-print(chaine.swapcase())
-```
-HELLO, WORLD!<br>
-hello, world!<br>
-Hello, world!<br>
-hELLO, wORLD!<br>
+### Encodage
+[Tableau ASCII](http://www.asciitable.com/)
 
-### Remplacement de sous-chaîne (substring)
-```python
-print(chaine.replace('Hello', 'Bonjour'))
-```
-Bonjour, World!<br>
-
-### Trouver une sous-chaîne ou un charactère
-```python
-# retourne le premier indice trouvé
-print(chaine.find('o'))
-print(chaine.find('World'))
-```
-4<br>
-7
+Les fonctions [ord() et chr()](https://docs.python.org/3.4/library/functions.html?highlight=ord) permettent de convertir des données caractères.
