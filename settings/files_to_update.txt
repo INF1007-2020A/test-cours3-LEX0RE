@@ -2,7 +2,7 @@
 .gitpod.yml
 .theia/settings.json
 _exercice_version_prof.py
-data/sample_countries.txt
+data/sample_words.txt
 instructions.md
 README.md
 settings/files_to_update.txt
