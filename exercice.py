@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     for i in len(nom):
-        if nom[i] > ord('z')
+        if nom[i] > ord('z'):
             
+
 
     nom.find('and')
     return nom
