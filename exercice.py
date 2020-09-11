@@ -6,7 +6,7 @@ def capitaliser_pays(nom):
             nom = nom[0:i] + chr(ord(nom[i]) + 32) + nom[i+1:]
         if i == 0:
                 nom = nom[0:i] + chr(ord(nom[i]) - 32) + nom[i+1:]
-        if nom[i-1] == ' ' and nom.find(' and ') + 1 != i:
+        if nom[i-1] == ' '
                 nom = nom[0:i] + chr(ord(nom[i]) - 32) + nom[i+1:]
 
     return nom
