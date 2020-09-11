@@ -4,6 +4,7 @@ def capitaliser_pays(nom):
     for i in range(len(nom)):
         if nom[i] > 'Z':
             value = nom[i] - 32
+            nom[]
 
     
     return nom
