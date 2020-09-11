@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     for i in range(len(nom)):
-        if nom[i] > 'z':
+        if nom[i] > 'Z':
             nom[i] -= ord('A') - ord('a')
 
     
