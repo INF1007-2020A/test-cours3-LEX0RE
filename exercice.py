@@ -5,8 +5,7 @@ def capitaliser_pays(nom):
         if nom[i] > ord('z'):
             nom[i] -= ord('A') - ord('a')
 
-    
-    nom.find('and')
+    if nom.find('and')
     return nom
 
 
