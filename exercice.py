@@ -3,7 +3,7 @@
 def capitaliser_pays(nom):
     for i in range(len(nom)):
         if nom[i] <= 'Z':
-            newchar = chr(ord(nom[i]) + 32)
+            nom = chr(ord(nom[i]) + 32)
             nom[i:i+1] = newchar
 
     return nom
