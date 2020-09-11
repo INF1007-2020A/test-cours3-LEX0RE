@@ -8,7 +8,7 @@ def capitaliser_pays(nom):
                 nom = nom[0:i] + chr(ord(nom[i]) - 32) + nom[i+1:]
 
     if nom.find('And'):
-        nom = nom[0:nom.find(And)] + chr(ord(nom[i]) - 32) + nom[i+1:]
+        nom = nom[0:nom.find('And')] + chr(ord(nom[i]) - 32) + nom[i+1:]
 
     return nom
 
