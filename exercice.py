@@ -5,8 +5,8 @@ def capitaliser_pays(nom):
         print(nom[i])
         if nom[i] <= 'Z':
             value = ord(nom[i])
-            print(value)
             value = value + 32
+            print(value)
 
     
     return nom
