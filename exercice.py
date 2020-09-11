@@ -3,7 +3,7 @@
 def capitaliser_pays(nom):
     for i in len(nom):
         if nom[i] > ord('z'):
-            
+            nom[i] -= 3
 
 
     nom.find('and')
