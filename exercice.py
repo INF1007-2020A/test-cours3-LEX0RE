@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
+    newname = ''
     for i in range(len(nom)):
         if nom[i] <= 'Z':
             value = ord(nom[i])
