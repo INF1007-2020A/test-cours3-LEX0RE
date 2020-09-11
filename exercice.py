@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
-    for i in nom)
+    for i in nom
     nom.find('and')
     return nom
 
