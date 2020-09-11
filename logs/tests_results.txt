@@ -9,6 +9,6 @@ Traceback (most recent call last):
 AttributeError: module 'exercice' has no attribute 'majuscule'
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.000s
+Ran 1 test in 0.001s
 
 FAILED (errors=1)
