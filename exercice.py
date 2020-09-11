@@ -8,7 +8,7 @@ def capitaliser_pays(nom):
             nom[i] = chr(value)
 
     
-    return 
+    return nom
 
 
 if __name__ == '__main__':
