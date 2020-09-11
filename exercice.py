@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
-    number = len(nom)
+    print(len(nom))
     for i in range(2):
         if nom[i] <= 'Z':
             nom = nom[i-1:i+1] + chr(ord(nom[i]) + 32) + nom[i+1:]
