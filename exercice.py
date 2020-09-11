@@ -9,7 +9,7 @@ def capitaliser_pays(nom):
             newchar = chr(value)
             nom[i] = newchar
 
-    nom = 
+    nom = newname
     return nom
 
 
