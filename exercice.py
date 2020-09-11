@@ -6,7 +6,7 @@ def capitaliser_pays(nom):
             value = ord(nom[i])
             value = value + 32
             newchar = chr(value)
-            newname[i] = newchar
+            nom[i] = newchar
 
     return nom
 
