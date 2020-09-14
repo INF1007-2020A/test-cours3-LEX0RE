@@ -1,87 +1,25 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Résultats
-Score | Critères
---- | ---
-0/1 | Formater des mots en majuscules
-0/1 | **Total**
-
-[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
-# Transformer une lettre minuscule en majuscule
+# Exercices du chapitre 3
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
-## Objectif
+Chaque exercice est dans une fonction dans [exercice.py](exercice.py) et retourne le résultat.
 
-Modifier les caractères pour que les lettres minuscules se transforment en majuscule, sans utiliser la fonction upper() de Python.
+## 1. Puissance
 
-### Exemple
-```python
-print(majuscule('bonjour'))
-```
-BONJOUR
+Écrire un algorithme qui calcule la puissance dissipée par une résistance selon la formule _P = V² / R_
 
-### À compléter
-Vous devez compléter la fonction suivante du fichier [exercice.py](exercice.py).
+## 2. Vecteurs orthogonaux
 
-```python
-def majuscule(mot):
-    #TODO completer la fonction
-    return mot
-```
+Écrire un algorithme qui détermine si deux vecteurs à deux dimensions sont orthogonaux ou non. Note : utiliser un produit scalaire, les opérations sur les vecteurs, dont le produit scalaire, ne sont pas des opérations élémentaires disponibles pour l'exercice. Acceptons l'hypothèse qu'un vecteur nul est orthogonal à n'importe quel autre vecteur.
 
-## Connaissances utiles
+## 3. Moyenne d'une liste
 
-### Encodage
-[Tableau ASCII](http://www.asciitable.com/)
+Écrire un algorithme qui calcule la moyenne entre des valeurs positives d'une liste. Le nombre de valeurs n’est pas connu à l’avance, et il faut ignorer les valeurs négatives.
 
-Les fonctions [ord() et chr()](https://docs.python.org/3.4/library/functions.html?highlight=ord) permettent de convertir des données caractères.
+Par exemple, la liste [1, 4, -2, 10] donne une moyenne de 5.
+
+## 4. Monnaie à rendre
+
+Écrire un algorithme qui calcule, à partir d'une valeur entière, la monnaie à rendre en billets de 100$, 20$, 10$, 5$ et en pièces de 1$.
