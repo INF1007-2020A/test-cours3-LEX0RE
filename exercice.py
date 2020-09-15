@@ -1,7 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
-    # TODO completer la fonction
+    for i in range(0, len(nom)):
+        if nom[i] <= 'Z' and nom[i] >= 'A':
+            nom = nom[0:i] + chr(ord(nom[i]) + 32) + nom[i+1:]
+        if i == 0 or nom[i-1] == ' ':
+                nom = nom[0:i] + chr(ord(nom[i]) - 32) + nom[i+1:]
+
+    if nom.find(' And ') != -1:
+        nom = nom[0:nom.find('And')] + chr(ord(nom[nom.find('And')]) + 32) + nom[nom.find('And')+1:]
+
     return nom
 
 

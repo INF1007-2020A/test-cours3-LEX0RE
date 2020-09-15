@@ -1,56 +1,33 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-# Capitalisation de noms de pays
+
+## Résultats
+Score | Critères
+--- | ---
+0/1 | Formater des mots en majuscules
+0/1 | **Total**
+
+[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
+# Exercices du chapitre 3
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
-## Objectif
+Chaque exercice est dans une fonction dans [exercice.py](exercice.py) et retourne le résultat.
 
-Modifier les casses de noms de pays afin que:
-* Les mots de liaisons (ex.: and) soient en casses minuscules
-* Les premières lettres de noms soient en casses majuscules
+## 1. Puissance
 
-### Exemple
-```python
-print(capitaliser_pays('antigua ANd barbuda'))
-```
-Antigua and Barbuda
+Écrire un algorithme qui calcule la puissance dissipée par une résistance selon la formule _P = V² / R_
 
-### À compléter
-Vous devez compléter la fonction suivante du fichier [exercice.py](exercice.py).
+## 2. Vecteurs orthogonaux
 
-```python
-def capitaliser_pays(nom):
-    #TODO completer la fonction
-    return nom
-```
+Écrire un algorithme qui détermine si deux vecteurs à deux dimensions sont orthogonaux ou non. Note : utiliser un produit scalaire, les opérations sur les vecteurs, dont le produit scalaire, ne sont pas des opérations élémentaires disponibles pour l'exercice. Acceptons l'hypothèse qu'un vecteur nul est orthogonal à n'importe quel autre vecteur.
 
-## Connaissances utiles
+## 3. Moyenne d'une liste
 
-### Changement de casse
-```python
-chaine = "Hello, World!"
-print(chaine.upper())
-print(chaine.lower())
-print(chaine.capitalize())
-print(chaine.swapcase())
-```
-HELLO, WORLD!<br>
-hello, world!<br>
-Hello, world!<br>
-hELLO, wORLD!<br>
+Écrire un algorithme qui calcule la moyenne entre des valeurs positives d'une liste. Le nombre de valeurs n’est pas connu à l’avance, et il faut ignorer les valeurs négatives.
 
-### Remplacement de sous-chaîne (substring)
-```python
-print(chaine.replace('Hello', 'Bonjour'))
-```
-Bonjour, World!<br>
+Par exemple, la liste [1, 4, -2, 10] donne une moyenne de 5.
 
-### Trouver une sous-chaîne ou un charactère
-```python
-# retourne le premier indice trouvé
-print(chaine.find('o'))
-print(chaine.find('World'))
-```
-4<br>
-7
+## 4. Monnaie à rendre
+
+Écrire un algorithme qui calcule, à partir d'une valeur entière, la monnaie à rendre en billets de 100$, 20$, 10$, 5$ et en pièces de 1$.

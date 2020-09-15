@@ -1,0 +1,14 @@
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+AttributeError: module 'exercice' has no attribute 'majuscule'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
